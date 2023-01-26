@@ -1,0 +1,58 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(41, 1fr);
+    color: white;
+    overflow-x: scroll;
+    font-size: 0.8rem;
+}
+
+.table-head-content{
+    display: flex;
+    width: 150px;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.table-body{
+    display: grid;
+    grid-template-columns: repeat(150px);
+}
+
+.table-body-content{
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.gray{
+    background-color: rgb(100 116 139);
+}
+
+.red {
+    
+    background-color:rgb(220 38 38);
+}
+.green {
+    background-color: rgb(101 163 13);
+}
+.blue{
+    background-color: rgb(2 132 199);
+}
+
+.violet{
+    background-color: rgb(147 51 234);
+}
+
+.orange{
+    background-color: rgb(217 119 6);
+}
+
+.yellow{
+    background-color:sienna;
+}
